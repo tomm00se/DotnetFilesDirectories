@@ -44,8 +44,6 @@ double CalculateSalesTotal(IEnumerable<string> salesFiles)
         // Add the amount found in the Total field to the salesTotal variable
         salesTotal += data?.Total ?? 0;
     }
-
-
     return salesTotal;
 }
 
